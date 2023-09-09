@@ -9,7 +9,7 @@ class BankAccount:
     def deposit(owner, amount):
         # adding money
         owner.balance = owner.balance + amount
-
+ 
     # method to withdraw money
     def withdraw(owner, amount):
         # if amount is less than or equal to balance, then withdraw money
